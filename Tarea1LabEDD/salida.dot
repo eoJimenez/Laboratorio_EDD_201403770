@@ -1,0 +1,33 @@
+digraph G {
+node [shape = record, style="rounded,filled"fillcolor="orange:red",width=0.7,height=0.5];
+rankdir=LR;
+nodo0x3e1388[label="1"];
+nodo0x3e12f8[label="2"];
+nodo0x3e1340[label="10"];
+nodo0x3e7a38[label="20"];
+nodo0x3e7a50[label="25"];
+nodo0x3e1328[label="80"];
+nodo0x3e1310[label="201"];
+nodo0x3e13a0[label="250"];
+nodo0x3e1370[label="300"];
+nodo0x3e1358[label="1000"];
+nodo0x3e1358->nodo0x3e1370;
+nodo0x3e1370->nodo0x3e1358;
+nodo0x3e1370->nodo0x3e13a0;
+nodo0x3e13a0->nodo0x3e1370;
+nodo0x3e13a0->nodo0x3e1310;
+nodo0x3e1310->nodo0x3e13a0;
+nodo0x3e1310->nodo0x3e1328;
+nodo0x3e1328->nodo0x3e1310;
+nodo0x3e1328->nodo0x3e7a50;
+nodo0x3e7a50->nodo0x3e1328;
+nodo0x3e7a50->nodo0x3e7a38;
+nodo0x3e7a38->nodo0x3e7a50;
+nodo0x3e7a38->nodo0x3e1340;
+nodo0x3e1340->nodo0x3e7a38;
+nodo0x3e1340->nodo0x3e12f8;
+nodo0x3e12f8->nodo0x3e1340;
+nodo0x3e12f8->nodo0x3e1388;
+nodo0x3e1388->nodo0x3e12f8;
+
+}

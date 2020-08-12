@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1597255302 source:c:\users\xavier tnt\desktop\pejota\tarea1labedd\src\listadoble.cpp
+	"listadoble.h"
+
+1597251721 c:\users\xavier tnt\desktop\pejota\tarea1labedd\include\listadoble.h
+	"nodo.h"
+	<iostream>
+	<string>
+	<sstream>
+
+1597187836 c:\users\xavier tnt\desktop\pejota\tarea1labedd\include\nodo.h
+	<iostream>
+
+1597187836 source:c:\users\xavier tnt\desktop\pejota\tarea1labedd\src\nodo.cpp
+	"nodo.h"
+
+1597253868 source:c:\users\xavier tnt\desktop\pejota\tarea1labedd\main.cpp
+	<iostream>
+	"listadoble.h"
+	"nodo.h"
+	<sstream>
+	<fstream>
+	<bits/stdc++.h>
+
