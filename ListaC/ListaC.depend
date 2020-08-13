@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1597281105 source:c:\users\xavier tnt\desktop\pejota\listac\listac.c
+	"ListaC.h"
+	<stdbool.h>
+
+1597280017 c:\users\xavier tnt\desktop\pejota\listac\listac.h
+	<stdlib.h>
+	<stdio.h>
+	"NodoC.h"
+
+1597277845 c:\users\xavier tnt\desktop\pejota\listac\nodoc.h
+	<stdio.h>
+	<stdlib.h>
+
+1597280988 source:c:\users\xavier tnt\desktop\pejota\listac\main.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	"ListaC.h"
+	"NodoC.h"
+
+1597277845 source:c:\users\xavier tnt\desktop\pejota\listac\nodoc.c
+	"NodoC.h"
+

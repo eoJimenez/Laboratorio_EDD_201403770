@@ -1,0 +1,17 @@
+digraph G{ 
+ rankdir=LR 
+ node [shape = record, style="rounded,filled"fillcolor="orange:red",width=0.7,height=0.5];
+node00952F98[label="5"]
+node00952F80[label="10"]
+node00950C50[label="20"]
+node00952FC8[label="45"]
+node00950C68[label="50"]
+node00952FC8->node00950C68;
+ node00950C68->node00952FC8;
+node00950C50->node00952FC8;
+ node00952FC8->node00950C50;
+node00952F80->node00950C50;
+ node00950C50->node00952F80;
+node00952F98->node00952F80;
+ node00952F80->node00952F98;
+}
