@@ -1,0 +1,17 @@
+------------Errores-----------------------------
+1) No me dejo compilar porque tienes en la linea 157 un \N  y es \n
+
+2) En tu metodo eliminar solo le estas dando NULL al objeto y no liberas esa memoria
+lo que pasa es que tu lista funciona pero tu memoria se esta llenando. Tienes que darle free(aux)
+------------Recomendaciones--------------------
+
+2) Normalmente los indices se manejas desde la posicion 0 y no la 1.
+
+------------Nota----------------------------------
+
+
+Grafica 20/20
+Eliminar 30/40
+Get 40/40
+
+Total -----------90

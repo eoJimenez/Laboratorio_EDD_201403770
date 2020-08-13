@@ -154,7 +154,7 @@ void Eliminar(ListaC* l, int indice)
                     temp->derecha = aux->derecha;
                     aux->derecha->izquierda = temp;
                 }
-                printf("\NOdo Eliminado de la Lista\n\n");
+                printf("NOdo Eliminado de la Lista\n\n");
                 encontrado = true;
             }
             temp = aux;

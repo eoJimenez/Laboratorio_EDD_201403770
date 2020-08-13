@@ -1,17 +1,20 @@
 digraph G{ 
  rankdir=LR 
  node [shape = record, style="rounded,filled"fillcolor="orange:red",width=0.7,height=0.5];
-node00952F98[label="5"]
-node00952F80[label="10"]
-node00950C50[label="20"]
-node00952FC8[label="45"]
-node00950C68[label="50"]
-node00952FC8->node00950C68;
- node00950C68->node00952FC8;
-node00950C50->node00952FC8;
- node00952FC8->node00950C50;
-node00952F80->node00950C50;
- node00950C50->node00952F80;
-node00952F98->node00952F80;
- node00952F80->node00952F98;
+node0x55d7f52e9320[label="2"]
+node0x55d7f52e9280[label="5"]
+node0x55d7f52e9260[label="10"]
+node0x55d7f52e92a0[label="25"]
+node0x55d7f52e92c0[label="45"]
+node0x55d7f52e9340[label="145"]
+node0x55d7f52e92c0->node0x55d7f52e9340;
+ node0x55d7f52e9340->node0x55d7f52e92c0;
+node0x55d7f52e92a0->node0x55d7f52e92c0;
+ node0x55d7f52e92c0->node0x55d7f52e92a0;
+node0x55d7f52e9260->node0x55d7f52e92a0;
+ node0x55d7f52e92a0->node0x55d7f52e9260;
+node0x55d7f52e9280->node0x55d7f52e9260;
+ node0x55d7f52e9260->node0x55d7f52e9280;
+node0x55d7f52e9320->node0x55d7f52e9280;
+ node0x55d7f52e9280->node0x55d7f52e9320;
 }

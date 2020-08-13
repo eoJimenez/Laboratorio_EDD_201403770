@@ -23,7 +23,7 @@ int main(){
     add(l,h);
     imprimir(l);
     Buscar(l,5);
-    Eliminar(l,1);
+    Eliminar(l,0);
     imprimir(l);
     Eliminar(l,4);
     imprimir(l);
