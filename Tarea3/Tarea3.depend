@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1598123918 source:c:\users\xavier tnt\desktop\pejota\edd2020\tarea3\main.cpp
+	<iostream>
+	"ArbolBB.h"
+
+1598123473 c:\users\xavier tnt\desktop\pejota\edd2020\tarea3\include\arbolbb.h
+	"NodoABB.h"
+	<iostream>
+
+1598123176 c:\users\xavier tnt\desktop\pejota\edd2020\tarea3\include\nodoabb.h
+
+1598123865 source:c:\users\xavier tnt\desktop\pejota\edd2020\tarea3\src\arbolbb.cpp
+	"ArbolBB.h"
+
+1598123522 source:c:\users\xavier tnt\desktop\pejota\edd2020\tarea3\src\nodoabb.cpp
+	"NodoABB.h"
+	<iostream>
+
