@@ -1,0 +1,20 @@
+--------------Errores--------------
+--------------Recomendaciones-------
+1) En el constructor del nodo ya tienes lo de hacer izquierda y derecha igual a NULL, pero despues que lo insertas tambien 
+haces lo mismo. Despues de que se construye ya va a retornar los punteros igual a NULL no es necesario volver a hacerlo.
+
+2)Esta muy bien la funcionalidad pero no estas aplicando los conocimientos de la programacion orientada a objetos,
+Tienes que encapsular los campos, vi muchos campos publicos como raiz, izquierda y derecha. Utiliza mas el encapsulamiento
+
+3) El nombre de las variables normalmente es en minuscula y los metodos en Mayuscula haciendo referencia a la variable
+derecha===getDerecha()
+
+--------------Nota-----------------
+
+Arbol     40/40
+Preorden  20/20
+Inorden   20/20
+Postorden 20/20
+
+
+Total 100

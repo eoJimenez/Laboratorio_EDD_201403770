@@ -1,4 +1,4 @@
-#include "NodoABB.h"
+#include "../include/ArbolBB.h"
 #include <iostream>
 using namespace std;
 
